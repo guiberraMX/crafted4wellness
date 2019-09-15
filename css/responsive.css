@@ -33,6 +33,11 @@
 
 @media (max-width: 1300px) {
     /* blog */
+
+    .margentop{
+        margin-bottom: 0px !important;
+    }
+
     .blog-post-style5 .post-details {min-height: 315px; padding: 15% 12%;}
 
     /* agency */
@@ -57,6 +62,11 @@
 
 @media (max-width: 1199px) {
     section { padding: 110px 0;}
+
+        .margentop{
+        margin-bottom: 0px !important;
+    }
+
 
     .md-center-col{ float:none !important; margin-left:auto !important; margin-right:auto !important}
     /* border */

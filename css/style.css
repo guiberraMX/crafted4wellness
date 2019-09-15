@@ -88,9 +88,40 @@ ul, ol, dl {list-style-position: outside;}
 :-ms-input-placeholder { color: #999 !important; text-overflow: ellipsis; opacity:1; }
 ::-webkit-scrollbar { width:12px }
 ::-webkit-scrollbar-track { -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3); -moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3); box-shadow:inset 0 0 6px rgba(0,0,0,.3); }
-::-webkit-scrollbar-thumb { background:rgba(210,210,210,.8); -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.5); -moz-box-shadow:inset 0 0 6px rgba(0,0,0,.5); box-shadow:inset 0 0 6px rgba(0,0,0,.5); }
+::-webkit-scrollbar-thumb { background:#b9e7dd !important; -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.5); -moz-box-shadow:inset 0 0 6px rgba(0,0,0,.5); box-shadow:inset 0 0 6px rgba(0,0,0,.5); }
 ::-webkit-scrollbar-thumb:window-inactive { background:rgba(210,210,210,.4) }
 .animated { -moz-transition-duration: 0s !important;  }
+
+
+.bobody {
+    
+  background-color: #fff;
+  animation: bg-color 10s infinite;
+  -webkit-animation: bg-color 10s infinite;
+}
+
+@-webkit-keyframes bg-color {
+  0% { background-color: #f9f9f9; }
+  33% { background-color: #f1f1f1; }
+  66% { background-color: #ffffff; }
+  
+  100% { background-color: #f9f9f9; }
+}
+
+@keyframes bg-color {
+   0% { background-color: #f9f9f9; }
+  33% { background-color: #e6e6e6; }
+  66% { background-color: #ececec; }
+  
+  100% { background-color: #f9f9f9; }
+}
+
+.margentop{
+    margin-bottom: -400px !important;
+}
+
+
+
 
 /* ===================================
     Typography
@@ -122,6 +153,7 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .text-medium{ font-size:14px !important; line-height:24px !important;}
 .text-large { font-size: 15px !important; line-height: 22px !important; }
 .text-extra-large { font-size: 18px !important; line-height: 27px !important;  }
+.text-extra-large2 { font-size: 38px !important; line-height: 27px !important;  }
 .title-small{ font-size:20px !important; line-height:30px !important;}
 .title-medium{ font-size:24px !important; line-height:28px !important;}
 .title-large{ font-size:28px !important; line-height:34px !important;}
@@ -1446,7 +1478,7 @@ footer img {max-width: 156px;}
 
 .service { min-height: 684px}
 .service-sub {border: 6px solid transparent; padding: 24px}
-.service-sub:hover {border: 6px solid #fdd947; padding: 24px; background: #fff}
+.service-sub:hover {border: 6px solid #b9e7dd; padding: 24px; background: #fff}
 .agency-skill {min-height: 500px;}
 .work-with-us {padding: 80px 0}
 
