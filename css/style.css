@@ -795,7 +795,7 @@ section { padding: 130px 0; }
 ====================================== */
 
 #header {z-index: 5}
-.navbar {border: none; display: inline-table; width: 100%; border-radius:0; position: fixed; top: 0; z-index: 10; border-bottom: 1px solid rgba(255,255,255,.15) }
+.navbar {border: none; display: inline-table; width: 100%; border-radius:0; position: fixed; top: 0; z-index: 10; border-bottom: 1px solid rgba(255,255,255,.15); background: #b9e7dd !important; }
 nav .container { display: table-cell; height: 75px; position: relative; vertical-align: middle; }
 .navbar-header {background: url("../images/logo-border.png") right no-repeat}
 nav.shrink .container {height: 60px;}
@@ -807,7 +807,7 @@ nav.shrink .container {height: 60px;}
 .sticky-wrapper {position: absolute; top: 0; width: 100%}
 .navbar-brand img {position: relative; top: -5px; z-index: 2; max-width: 156px;}
 nav.shrink {background: #b9e7dd; border: none !important}
-.transparent-header.shrink {background: rgba(0,0,0,.7); border: none !important}
+.transparent-header.shrink {background: #b9e7dd !important; border: none !important}
 nav.navbar-height{  height: 100px !important;}
 nav.navbar-height.shrink {height: 50px !important;}
 .navbar li.active a { border-bottom: 1px solid #000}
@@ -997,7 +997,7 @@ ul.portfolio-filter-tab-style-6 { margin: 220px 50px 0 0;}
 .grid-style1 .grid figcaption {  opacity: 0; text-align: center; height: calc(100% - 60px); width: calc(100% - 60px); left: 30px; top: 30px;  position: absolute; background: #fff }
 .grid-style1 .grid figcaption h3 { font-size: 18px; line-height: 25px; margin: 0; width: 100%; padding: 0 15px; text-align: center; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); position: relative}
 .grid-style1 .grid figcaption h3 span {margin-top: 5px;}
-.grid-style1-border {  border: 8px solid #b9e7dd; height: calc(100% - 40px); width: calc(100% - 40px); left: 20px; top: 20px;  position: absolute; }
+.grid-style1-border {  border: 0px solid #b9e7dd; height: calc(100% - 40px); width: calc(100% - 40px); left: 20px; top: 20px;  position: absolute; }
 
 /* grid - style 2 */
 .grid-style2 .grid figure { -webkit-transition: opacity 0.2s; transition: opacity 0.2s; background: #999999}
