@@ -61,6 +61,17 @@ Table of contents
     color: #fff;
     font-weight: 200; 
 }
+
+.faq p{
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+
+}
+
+.faq p strong{
+    font-size: 19px;
+}
 /* ===================================
     Google font
 ====================================== */
