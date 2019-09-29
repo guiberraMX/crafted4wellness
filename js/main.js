@@ -994,7 +994,7 @@ $(document).ready(function () {
         //Stop Closing magnificPopup on selected elements - START CODE
 
          $(".popup-main .owl-slider-full").click(function (e) {
-            if ($(e.target).is('.mfp-close'))
+            if ($(e.target).is(''))
                 return;
             return false;
         });
@@ -1070,7 +1070,7 @@ $('.work-details-popup').on('click', function () {
         },
         type: 'inline',
         fixedContentPos: true,
-        closeOnContentClick: true,
+        closeOnContentClick: false,
         callbacks: {
             beforeOpen: function () {
                 startWindowScroll = $(window).scrollTop();

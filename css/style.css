@@ -52,6 +52,15 @@ Table of contents
 
 */
 
+.product{
+
+}
+
+.price{
+    font-size: 22px !important;
+    color: #fff;
+    font-weight: 200; 
+}
 /* ===================================
     Google font
 ====================================== */
@@ -983,13 +992,13 @@ ul.portfolio-filter-tab-style-6 { margin: 220px 50px 0 0;}
 .gallery-img a { position: relative; z-index: 2; display: block}
 .grid-gallery ul { list-style: none; padding: 0; }
 .grid-gallery figure { margin: 0; position: relative }
-.grid-gallery figure img { display: block; width: 100%; opacity: 1; cursor: pointer; }
+.grid-gallery figure img { display: block; width: 100%; opacity: 1;  }
 .grid-gallery figcaption h3 { margin: 0 0 8px; padding:0; text-transform:uppercase; }
 .grid-gallery figcaption i { font-size: 32px; color: #aeaeae; margin-bottom: 20px}
 .grid { margin: 0 auto; }
 .grid li { box-sizing: border-box; float: left; margin: 0; display: inline-table;  }
 .gallery-img { opacity: 1; transition: all 0.3s ease 0s; overflow: hidden; }
-.grid figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1.1);  transform: scale(1.1,1.1); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.15; cursor:url("../images/icon-zoom.png"), pointer;  }
+.grid figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1.1);  transform: scale(1.1,1.1); transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; opacity:0.15;   }
 .grid figure:hover figcaption { opacity: 1; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease;}
 
 /* grid - style 1 */
