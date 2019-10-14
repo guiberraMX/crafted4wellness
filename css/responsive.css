@@ -1,4 +1,6 @@
 @media (max-width: 1650px) {
+
+
     /* tattoo */
     .tattoo-art-box .title-extra { font-size: 50px !important; line-height: 50px !important;}
 }
@@ -14,6 +16,11 @@
 
     /* photography */
     .hover-box-image-link {bottom: 30px;}
+}
+
+
+@media (min-width: 991px){
+    .navbar-header a {width: 250px !important; margin-top: -4px;}
 }
 
 @media (max-width: 1400px) {
@@ -333,6 +340,8 @@
     .restaurant-menu-text { left: 59px;}
 }
 
+
+
 @media (max-width: 1150px) {
     /* personal */
     .personal .container { width: 750px !important;}
@@ -366,6 +375,10 @@
 
 @media (max-width: 991px) {
     /* personal */
+
+    .otro {margin-top: -10px;}
+
+
     .footer-social a { margin: 0 13px;}
     .personal .container { width: 460px !important;}
     .sm-center-col{ float:none !important; margin-left:auto !important; margin-right:auto !important}
@@ -717,7 +730,7 @@
     .center-logo-header .navbar-header {padding: 0 15px;}
     .center-logo-header.shrink .navbar-collapse { top: 86px !important;}
     .center-logo-header .navbar-collapse { top: 86px;}
-    .center-logo-header .navbar-brand img { top: -18px;}
+    .center-logo-header .navbar-brand img { }
     .attending-main {height: 500px;}
     .attending-main .img-border-medium {height: 470px;}
     .our-story-wedding .blog-post-style3 article .post-details { padding: 20px 0 0;}
@@ -966,9 +979,9 @@
     /* header */
     .navbar-toggle .icon-bar {background: #fff;}
     .navbar-toggle { margin-right: 0}
-    .navbar-collapse {box-shadow: none; background:rgba(0,0,0,.95); width: 100%; position: absolute; top: 75px}
+    .navbar-collapse {box-shadow: none; background:#b9e7dd !important; width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
-    .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
+    ..otro{ margin-top: 6px;}navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
 
     /* work */
     .work-4col .grid li { width: 100%;}
