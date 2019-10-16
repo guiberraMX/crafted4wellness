@@ -1107,7 +1107,7 @@ ul.portfolio-filter-tab-style-6 { margin: 220px 50px 0 0;}
 /* onepage portfolio details popup */
 .popup-bg .mfp-content {height: 100%}
 .popup-info { display: none}
-.half-project-bg {height: 100%}
+.half-project-bg {height: 800px;}
 .slider-typographi-text .slider-subtitle{ line-height: 64px !important}
 .spend-year, .spend-time{border-right: 1px solid #e5e5e5; float: left; font-size: 30px; font-weight: 400; letter-spacing: 2px; line-height: 47px; min-height: 95px; text-align: center; width: 50%;}
 .spend-year span, .spend-time span{display: block; font-size: 12px; font-weight: 400; line-height: 0; margin-top: 35px; text-transform: uppercase;}

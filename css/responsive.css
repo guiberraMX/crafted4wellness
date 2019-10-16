@@ -753,6 +753,10 @@
 
 @media (max-width: 767px) {
 
+
+
+    .half-project-bg {height: 690px !important;}
+
     .xs-center-col{ float:none !important; margin-left:auto !important; margin-right:auto !important}
     
     /* border */
@@ -989,7 +993,7 @@
     .work-4col .grid li { width: 100%;}
     .work-3col .grid li {width: 100%}
     .work-2col .grid li {width: 100%}
-    .half-project-bg { height: 350px; }
+    .half-project-bg { height: 500px; }
     .ajax-popup-title-text { background: transparent; padding: 0}
     .work-5col .grid li {width: 100%;}
 
