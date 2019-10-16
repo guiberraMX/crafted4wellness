@@ -759,6 +759,8 @@
     .xs-no-border { border:none !important}
     .xs-separator-line-thick { height: 4px; margin: 0 auto; width: 30px; margin:7% auto}
 
+    .owl-slider-full{min-height: 1000px !important;}
+
     /* margin */
     .xs-margin-one-half{margin:0.5% !important}
     .xs-margin-one{margin:1% !important}
