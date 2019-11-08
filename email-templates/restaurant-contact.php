@@ -8,8 +8,8 @@
 	$comment=$_POST["comment"];
 	
 	// Email Receiver Address
-	$receiver="chris@crafted4wellness.com";
-	$subject="Website contact";
+	$receiver="chris@crafted4wellness.com, hello@crafted4wellness.com";
+	$subject="Contacto web";
 
 	$message = "
 	<html>
@@ -19,7 +19,7 @@
 	<body>
 	<table width='50%' border='0' align='center' cellpadding='0' cellspacing='0'>
 	<tr>
-	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='http://www.yourdomain.com/images/logo-mail.png' ></td>
+	<td colspan='2' align='center' valign='top'><img style=' margin-top: 15px; ' src='https://www.yourdomain.com/images/logo-mail.png' ></td>
 	</tr>
 	<tr>
 	<td width='50%' align='right'>&nbsp;</td>
@@ -53,12 +53,12 @@ $headers .= 'From: <'.$from.'>' . "\r\n";
    if(mail($receiver,$subject,$message,$headers))  
    {
 	   //Success Message
-      echo "The message has been sent!";
+      echo "¡Tu mensaje ha sido enviado!";
    }
    else
    {	
    	 //Fail Message
-      echo "The message could not been sent!";
+      echo "Ocurrió un problema inesperado, intenta de nuevo";
    }
 
 }
