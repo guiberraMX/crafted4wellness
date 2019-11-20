@@ -753,10 +753,13 @@
 
 @media (max-width: 767px) {
 
+   
 
     .margen-responsive-top {margin-top: -370px !important;}
+    .margen-responsive-top2 {margin-top: -180px !important;}
 
 
+    .upresponsive {margin-top: -300px !important;}
 
     .half-project-bg {height: 690px !important;}
 
@@ -766,7 +769,9 @@
     .xs-no-border { border:none !important}
     .xs-separator-line-thick { height: 4px; margin: 0 auto; width: 30px; margin:7% auto}
 
-    .owl-slider-full{min-height: 1000px !important;}
+    .owl-slider-full{min-height: 1000px !important; padding-bottom: -400px !important;}
+
+    .owl-bg-img{height: 100%; width: auto; }
 
     /* margin */
     .xs-margin-one-half{margin:0.5% !important}
