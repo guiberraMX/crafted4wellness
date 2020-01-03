@@ -25,6 +25,20 @@ $(document).ready(function () {
     counter number reset while scrolling
 ====================================== */
 
+
+/* ===================================
+    counter number res
+
+
+    COUNTER C4W popup
+
+
+
+    et while scrolling
+====================================== */
+
+
+
     $('.timer').appear();
     $(document.body).on('appear', '.timer', function (e) {
         // this code is executed for each appeared element
